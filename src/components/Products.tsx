@@ -115,9 +115,9 @@ const Products = ({ productData }: any) => {
                   <FormattedPrice amount={price} />
                 </span>
               </p>
-              <p className="text-xs text-gray-600 text-justify">
+{/*               <p className="text-xs text-gray-600 text-justify">
                 {description.substring(0, 120)}
-              </p>
+              </p> */}
               <button
                 onClick={() =>
                   dispatch(
